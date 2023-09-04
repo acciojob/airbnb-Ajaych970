@@ -17,7 +17,7 @@ public class HotelMagementRepository {
     HashMap<String, Hotel> hotelDb = new HashMap<>();
     HashMap<Integer, User> userDb = new HashMap<>();
     HashMap<String, Booking> bookingDb = new HashMap<>();
-//    HashMap<String, >
+
 
     public String addHotel(Hotel hotel){
         String key = hotel.getHotelName();
